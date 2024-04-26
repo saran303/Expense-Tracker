@@ -1,0 +1,57 @@
+h1{
+    color: white;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36.77px;
+    text-align: left;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 768px){
+    .homeWrapper{
+        background-color: #626262;
+        max-width: 90vw;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-radius: 10px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    
+    }
+    .secondPart{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        /* background-color: white; */
+    }
+}
+@media only screen and (min-width: 768px){
+    .homeWrapper{
+        background-color: #626262;
+        min-width: 50vw;
+        max-width: 95vw;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-radius: 10px;
+        margin: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .secondPart{
+        display: flex;
+        margin: 30px;
+        /* background-color: white; */
+    }
+    .recentWrapper{
+        width: 60vw;
+        background-color: white;
+        border-radius: 20px;
+        padding: 10px;
+    }
+}

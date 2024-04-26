@@ -1,0 +1,56 @@
+.wrapper{
+    width: 538px;
+    height: 335px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+}
+.title{
+    height: 34px;
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34.47px;
+}
+.intValue{
+    /* padding: 10px; */
+    width: 217px;
+    height: 51px;
+    border-radius: 15px;
+    border: 0px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    color: #919191;
+    margin: 10px;
+    box-shadow: 5px 3px 5px 3px #a9a8a8;
+}
+.submitBtn{
+    width: 145px;
+    height: 51px;
+    border-radius: 15px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    color: white;
+    background-color: #F4BB4A;
+    cursor: pointer;
+    border: 0px;
+    box-shadow: 5px 3px 5px 3px #a9a8a8;
+}
+.cancelBtn{
+    width: 112px;
+    height: 51px;
+    border-radius: 15px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    border: 0px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 5px 3px 5px 3px #a9a8a8;
+}

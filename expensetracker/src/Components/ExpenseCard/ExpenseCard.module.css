@@ -1,0 +1,60 @@
+@media only screen and (max-width: 768px){
+    .wrapper{
+        width: 300px;
+        /* width: 18vw; */
+        height: 181px;
+        top: 140px;
+        left: 90px;
+        gap: 0px;
+        border-radius: 15px;
+        background-color: #9B9B9B;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 768px){
+    .wrapper{
+        width: 355px;
+        /* width: 18vw; */
+        height: 181px;
+        top: 140px;
+        left: 90px;
+        gap: 0px;
+        border-radius: 15px;
+        background-color: #9B9B9B;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.info{
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34.47px;
+    color: white;
+}
+.amount{
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34.47px;
+    color: #F4BB4A;
+}
+.btn{
+    width: 167.65px;
+    height: 38px;
+    top: 245px;
+    left: 183.88px;
+    gap: 0px;
+    color: white;
+    background: linear-gradient(90deg, #FF9595 0%, #FF4747 80%, #FF3838 100%);
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
